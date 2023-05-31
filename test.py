@@ -1,3 +1,5 @@
+
+print("hello world")
 #we need two files configuration file and py file which will be rendering a content to a particular path which will betold by configuration file which here is test.py#
 import webapp2   #servering content to a particular request webapp2 is imported because whatever the request is going to come from browser so what content is to be send how it is send is decided by the webapp2#
 class MainPage(webapp2.RequestHandler):   #class which server the data inherting handeler from webapp2 in this class#
